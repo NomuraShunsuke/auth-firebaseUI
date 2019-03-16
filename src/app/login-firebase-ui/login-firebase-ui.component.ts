@@ -32,5 +32,4 @@ export class LoginFirebaseUIComponent implements OnInit {
   async errorCallback(errorData: FirebaseUISignInFailure) {
     console.log(errorData);
   }
-
 }
