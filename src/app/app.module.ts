@@ -39,7 +39,7 @@ const firebaseUiAuthConfig: firebaseui.auth.Config = {
   ],
   tosUrl: 'aaa',
   privacyPolicyUrl: 'プライバシーポリシーのURL',
-  signInSuccessUrl: 'https://google.com',
+  signInSuccessUrl: '/index.html',  //ログイン完了時のリダイレクト先 https://google.com
   credentialHelper: firebaseui.auth.CredentialHelper.ACCOUNT_CHOOSER_COM,
   siteName: 'my-app', 
 };
